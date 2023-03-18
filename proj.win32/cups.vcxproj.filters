@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\worksearch\fenomen\cups\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\worksearch\fenomen\cups\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestGameSources\TestGame.cpp">
+      <Filter>Source Files\TestGameSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestGameSources\Board\Board.cpp">
+      <Filter>Source Files\TestGameSources\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestGameSources\Board\WinMap.cpp">
+      <Filter>Source Files\TestGameSources\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestGameSources\ConfigParser\ConfigParser.cpp">
+      <Filter>Source Files\TestGameSources\ConfigParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestGameSources\Common\Common.cpp">
+      <Filter>Source Files\TestGameSources\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\worksearch\fenomen\cups\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\worksearch\fenomen\cups\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\worksearch\fenomen\cups\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\worksearch\fenomen\cups\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\worksearch\fenomen\cups\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestGameSources\Definitions.h">
+      <Filter>Source Files\TestGameSources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestGameSources\TestGame.h">
+      <Filter>Source Files\TestGameSources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestGameSources\Board\Board.h">
+      <Filter>Source Files\TestGameSources\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestGameSources\Board\WinMap.h">
+      <Filter>Source Files\TestGameSources\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestGameSources\ConfigParser\ConfigParser.h">
+      <Filter>Source Files\TestGameSources\ConfigParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestGameSources\Common\Common.h">
+      <Filter>Source Files\TestGameSources\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\worksearch\fenomen\cups\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\worksearch\fenomen\cups\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B2C89F2E-2D6B-3186-8765-80A87BF04C3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{7048BFE0-C96F-35C8-8718-5A48DB77300C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{5B46CAF2-4B25-3682-B94C-ECC4EEDE26C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A43A2B2-F02F-35BF-AB3E-682DDACABC0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{34277341-ABE0-3F39-ACAD-8EC5283D3438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{9D8661AC-B1E7-3051-92E2-1E2874BD6210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestGameSources">
+      <UniqueIdentifier>{c4bae21a-4811-451c-9d5c-b832ba78a6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestGameSources\Board">
+      <UniqueIdentifier>{98095acc-50f5-4b64-ac05-6d313f581ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestGameSources\ConfigParser">
+      <UniqueIdentifier>{5a4b3289-5764-43a0-aa23-10d1935f1c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\cups">
+      <UniqueIdentifier>{c101fbec-9cb8-4d74-b8c9-8fd1e2d9304c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Configs">
+      <UniqueIdentifier>{587af3d7-489a-469b-a309-57086bc7ace8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestGameSources\Common">
+      <UniqueIdentifier>{ac9fc1c2-e634-4e6f-8026-cdc1ef939143}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\shine.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\cups\blue.png">
+      <Filter>Resources\cups</Filter>
+    </Image>
+    <Image Include="..\Resources\cups\green.png">
+      <Filter>Resources\cups</Filter>
+    </Image>
+    <Image Include="..\Resources\cups\grey.png">
+      <Filter>Resources\cups</Filter>
+    </Image>
+    <Image Include="..\Resources\cups\red.png">
+      <Filter>Resources\cups</Filter>
+    </Image>
+    <Image Include="..\Resources\cups\violet.png">
+      <Filter>Resources\cups</Filter>
+    </Image>
+    <Image Include="..\Resources\cups\yellow.png">
+      <Filter>Resources\cups</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\Configs\Config1.txt">
+      <Filter>Resources\Configs</Filter>
+    </Text>
+    <Text Include="..\Resources\Configs\Config2.txt">
+      <Filter>Resources\Configs</Filter>
+    </Text>
+    <Text Include="..\Resources\Configs\Config3.txt">
+      <Filter>Resources\Configs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
