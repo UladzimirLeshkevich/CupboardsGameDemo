@@ -105,7 +105,55 @@ void cBoard::drawBoard()
 		const auto& c1 = m_cells[con.cell - 1u];
 		const auto& c2 = m_cells[con.connectedCell - 1u];
 
-		draw->drawLine(c1.position, c2.position, cocos2d::Color4F(1.0, 1.0, 1.0, 1.0));
+		Vec2 p1, p2, p3, p4;
+
+		if (c1.position.x == c2.position.x)
+		{
+			if (c1.position.y > c2.position.y)
+			{
+				p1.y = c1.position.y - CellTouchAreaHeight * 0.5f;
+				p2.y = c2.position.y + CellTouchAreaHeight * 0.5f;
+			}
+			else
+			{
+				p1.y = c1.position.y + CellTouchAreaHeight * 0.5f;
+				p2.y = c2.position.y - CellTouchAreaHeight * 0.5f;
+			}
+
+			p3.y = p1.y;
+			p4.y = p2.y;
+
+			p1.x = c1.position.x + 10.0f;
+			p2.x = c2.position.x + 10.0f;
+
+			p3.x = c1.position.x - 10.0f;
+			p4.x = c2.position.x - 10.0f;
+		}
+		else
+		{
+			if (c1.position.x > c2.position.x)
+			{
+				p1.x = c1.position.x - CellTouchAreaHeight * 0.5f;
+				p2.x = c2.position.x + CellTouchAreaHeight * 0.5f;
+			}
+			else
+			{
+				p1.x = c1.position.x + CellTouchAreaHeight * 0.5f;
+				p2.x = c2.position.x - CellTouchAreaHeight * 0.5f;
+			}
+
+			p3.x = p1.x;
+			p4.x = p2.x;
+
+			p1.y = c1.position.y + 10.0f;
+			p2.y = c2.position.y + 10.0f;
+
+			p3.y = c1.position.y - 10.0f;
+			p4.y = c2.position.y - 10.0f;
+		}
+
+		draw->drawLine(p1, p2, cocos2d::Color4F(1.0, 1.0, 1.0, 1.0));
+		draw->drawLine(p3, p4, cocos2d::Color4F(1.0, 1.0, 1.0, 1.0));
 	}
 
 	this->addChild(draw, -1);
